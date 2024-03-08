@@ -1,0 +1,36 @@
+* {
+	margin: 0%;
+	padding: 0%;
+}
+
+.container {
+	height: 100vh;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.clock {
+	color: white;
+	font-size: 4rem;
+	padding: 3rem;
+}
+
+button {
+	padding: 1.25rem;
+	width: 200px;
+	border: none;
+	box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+	background-color: white;
+	margin: 30px;
+	cursor: pointer;
+	font: 100 1.5rem sans-serif;
+	border-radius: 50px;
+}
+
+button:hover {
+	background-color: rgb(50, 50, 50);
+	color: white;
+}
